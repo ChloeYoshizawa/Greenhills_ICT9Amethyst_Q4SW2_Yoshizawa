@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <title>How to Prevent Fire Accidents and Keep Your Home Safe</title>
+</head>
+<body>
+ </nav><br><br><br><br><br>
+    <style> 
+        body {
+            background:#FFCCCB;
+            text-transform:Capitalize;
+
+        }
+        table {
+            align:center;
+        }
+        h1 {
+            background:#FFE5B4;
+            border-style: groove;
+            border-width: 10px;
+            width: 960px;
+            border-top-color: #33FFDA;
+            border-bottom-color: #33FFDA;
+            border-left-color: #33FFDA;
+            border-right-color: #33FFDA;
+            margin:auto;
+            padding: 5px;
+        }
+    </style> 
+</head>
+<body>
+    <tr>   
+           <center>
+           <th class="bg-primary"><img src="https://i.pinimg.com/originals/e0/f5/1a/e0f51ab4aabd2a42cf55024ac67b8e8c.jpg" height="200px" width="300px" class="img-thumbnails"><br><big><br><big><big>Time Converter<big></th><br>
+           <td>Converts seconds to minutes, hours, and days.</td> 
+    </tr><br><br>
+<h1>  
+    <th>seconds</th><br>  
+    <input type="text" id="id1" placeholder="Centimiter"><br><br>
+    <input type="submit" value="To Minutes" onclick="myFunction()">
+    <input type="submit" value="To Hours" onclick="myFunction2()">
+    <input type="submit" value="To Days" onclick="myFunction3()"><br>
+    <p id="answer"></p>
+    <script> 
+        function myFunction() {
+            var num1 = document.getElementById('id1').value;
+            var num2= 60;  
+            var answer = Number(num1) / Number(num2);
+            document.getElementById('answer').innerHTML ="The value The number of seconds in minutes is " +  answer;
+        }  
+         function myFunction2() {
+            var num1 = document.getElementById('id1').value;
+            var num2= 3600;  
+            var answer = Number(num1) / Number(num2);
+            document.getElementById('answer').innerHTML ="The value The number of seconds in Hours is " +  answer;
+        }  
+         function myFunction3() {
+            var num1 = document.getElementById('id1').value;
+            var num2= 86400;  
+            var answer = Number(num1) / Number(num2);
+            document.getElementById('answer').innerHTML ="The value The number of seconds in days is " +  answer;
+        }  
+    </script>
+</h1>  
+</body>
+</html>           
